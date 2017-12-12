@@ -37,6 +37,7 @@
             <td>${cus.addr}</td>
             <td>${cus.age }</td>
             <td><a href="/findid?id=${cus.cid}">编辑</a>|<a href="/deleteid?id=${cus.cid}">删除</a></td>
+
         </tr>
 
     </c:forEach>

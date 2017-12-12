@@ -34,7 +34,7 @@
 			  
 			*/
 			bar1.add("用户管理", "查看用户信息", "/CustomerFindAllServlet", "body");
-			bar1.add("用户管理", "分页查询用户信息", "#", "body");
+			bar1.add("用户管理", "分页查询用户信息", "/PageServlet?page=1", "body");
 			bar1.add("用户管理", "添加用户信息", "${pageContext.request.contextPath }/customer/addCustomer.jsp", "body");
 		
 			bar1.add("用户管理", "aaaaaaa", "#", " ");
