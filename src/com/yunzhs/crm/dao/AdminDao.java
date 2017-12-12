@@ -22,4 +22,7 @@ public class AdminDao {
 		String sql="insert into admin(adminname,password) values(?,?)";
 		qr.update(sql,admin.getAdminname(),admin.getPassword());
 	}
+    public void test(){
+        System.out.println("练习");
+    }
 }
